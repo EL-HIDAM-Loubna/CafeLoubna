@@ -1,0 +1,25 @@
+<!-- strat navbar -->
+
+<div class="container pt-1">
+    <a  routerLink="/"><button type="button" class="btn">Show All</button></a>
+    <a  routerLink="/patisserie"><button type="button" class="btn ml-1">Patisserie</button></a>
+    <a  routerLink="/cuisine"><button type="button" class="btn ml-1">Cuisine</button></a>
+    <a  routerLink="/salade"><button type="button" class="btn ml-1">Salade</button></a>
+
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Contact
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">   
+            <a class="dropdown-item" routerLink="/register"> Register </a>
+            <a class="dropdown-item" routerLink="/login"> Login </a>
+          </div>
+        </div>
+    </div>
+
+
+    
+</div>
+
+<!--  end navbar -->
